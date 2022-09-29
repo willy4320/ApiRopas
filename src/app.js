@@ -18,7 +18,7 @@ app.set('view engine', 'ejs');
 app.use(logger('dev'));
 app.use(express.urlencoded({extended: false}));
 app.use(cors({
-  origin: "*"//"https://willy4320.github.io" 
+  origin: "https://willy4320.github.io" 
 }))
 
 // Routes
